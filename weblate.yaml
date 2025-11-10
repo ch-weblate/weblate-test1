@@ -9,9 +9,8 @@ components:
   # --- Node.js JSON translations ---
   - name: Locales JSON
     slug: locales-json
-    filemask: locales/*/*.json
-    source: locales/en/*.json
-    translation: locales/{lang}/*.json
+    filemask: locales/{lang}/*.json
+    source_language: en
     language_map:
       cy: cy
     file_format: json
