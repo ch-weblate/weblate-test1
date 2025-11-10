@@ -17,8 +17,8 @@ components:
     file_format: json
     source_language: en
     vcs: git
-    repo: git@github.com:companieshouse/%(slug)s.git
-    push: git@github.com:companieshouse/%(slug)s.git
+    repo: git@github.com:ch-weblate/weblate-test1.git
+    push: git@github.com:ch-weblate/weblate-test1.git
     branch: main
     # Automatically add new languages when new files appear
     add_new_translations: true
