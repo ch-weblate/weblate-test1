@@ -9,11 +9,12 @@ components:
   # --- Node.js JSON translations ---
   - name: Locales JSON
     slug: locales-json
-    filemask: locales/{lang}/*.json
-    source_language: en
+    filemask: locales/*/*.json
+    source: locales/en/*.json
+    translation: locales/{lang}/*.json
     language_map:
       cy: cy
-    file_format: json
+    file_format: i18next
     vcs: git
     repo: git@github.com:ch-weblate/%(slug)s.git
     push: git@github.com:ch-weblate/%(slug)s.git
