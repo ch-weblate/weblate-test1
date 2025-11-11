@@ -15,8 +15,8 @@ components:
       cy: cy
     file_format: json
     vcs: git
-    repo: git@github.com:companieshouse/%(slug)s.git
-    push: git@github.com:companieshouse/%(slug)s.git
+    repo: git@github.com:ch-weblate/%(slug)s.git
+    push: git@github.com:ch-weblate/%(slug)s.git
     branch: main
     # Automatically add new languages when new files appear
     add_new_translations: true
